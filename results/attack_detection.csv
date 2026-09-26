@@ -1,0 +1,16 @@
+attack,trials,M1_local_logs_only_pct,M2_local_logs_and_anchors_pct,M3_onchain_pct,M3_wilson95_low,M3_wilson95_high
+Modify one field,1000,100.0,0.0,100.0,99.62,100.00
+Delete one record,1000,100.0,0.0,100.0,99.62,100.00
+Insert a record (inside an epoch),1000,100.0,0.0,100.0,99.62,100.00
+Insert after last anchor,1000,100.0,0.0,100.0,99.62,100.00
+Reorder two decisions,1000,100.0,0.0,100.0,99.62,100.00
+Truncate the log (1-10 records),1000,100.0,0.0,100.0,99.62,100.00
+Modify 2-5 records,1000,100.0,0.0,100.0,99.62,100.00
+Replay a record from another run,1000,100.0,0.0,100.0,99.62,100.00
+Change a time step,1000,100.0,0.0,100.0,99.62,100.00
+Change agent_id (impersonation),1000,100.0,0.0,100.0,99.62,100.00
+Delete an epoch,1000,100.0,0.0,100.0,99.62,100.00
+Substitute the whole history,1000,n/a,0.0,100.0,99.62,100.00
+Pre-anchor omission (negative control),1000,0.0,0.0,0.0,0.00,0.38
+Fabrication by compromised logger (negative control),1000,0.0,0.0,0.0,0.00,0.38
+False positives on honest runs,1000,0.0,0.0,0.0,0.00,0.38
