@@ -1,0 +1,10 @@
+{"epoch_end_t": 9, "epoch_index": 0, "epoch_root": "d9a47e24f2fc7cd2215c89597f41786745b758ea2e95373a9d375e31f6fdfc98", "leaf_count": 20, "run_id": "seed103-13fab067e045", "timestamp_ns": 1790463014228022755}
+{"epoch_end_t": 19, "epoch_index": 1, "epoch_root": "d693751db9a65aa17419ffe08110b7f2ba973098a0b53eebdd6035d669727777", "leaf_count": 20, "run_id": "seed103-13fab067e045", "timestamp_ns": 1790463014228496480}
+{"epoch_end_t": 29, "epoch_index": 2, "epoch_root": "c6c32fbaaee8480891dc4a8fa8e8b0015c900f91300c3842305d064dc594513f", "leaf_count": 20, "run_id": "seed103-13fab067e045", "timestamp_ns": 1790463014228916536}
+{"epoch_end_t": 39, "epoch_index": 3, "epoch_root": "97cfe5cb71593abd251f4bebb2a70df0bd7228c70d3b7b2986996253eaccd5e1", "leaf_count": 20, "run_id": "seed103-13fab067e045", "timestamp_ns": 1790463014229383789}
+{"epoch_end_t": 49, "epoch_index": 4, "epoch_root": "1613417f743c7bc2666f2cd9c55db22083e0d154f3ada282635f5520beff3d42", "leaf_count": 20, "run_id": "seed103-13fab067e045", "timestamp_ns": 1790463014229806703}
+{"epoch_end_t": 59, "epoch_index": 5, "epoch_root": "c943d981ef41c721f3965ec9fb3c3ebc40406fe15280da05c3500727dcb67ec2", "leaf_count": 20, "run_id": "seed103-13fab067e045", "timestamp_ns": 1790463014230257990}
+{"epoch_end_t": 69, "epoch_index": 6, "epoch_root": "478b90288699bd355a8e81c9e9fb1aef6ef0fc6ffbe50092f11b3f145f462b14", "leaf_count": 20, "run_id": "seed103-13fab067e045", "timestamp_ns": 1790463014230679643}
+{"epoch_end_t": 79, "epoch_index": 7, "epoch_root": "fbbbd827717d9f1b9a6159c20c8de9fa6d038fedbc5520cd798bd0df5216123b", "leaf_count": 20, "run_id": "seed103-13fab067e045", "timestamp_ns": 1790463014231168566}
+{"epoch_end_t": 89, "epoch_index": 8, "epoch_root": "0991301aa58c1b4593f6c2eda9640d9970a17a3d7a3936d36b6da83f5e242080", "leaf_count": 20, "run_id": "seed103-13fab067e045", "timestamp_ns": 1790463014232233908}
+{"epoch_end_t": 99, "epoch_index": 9, "epoch_root": "add71ba5890f6d53fc615ec473d7239ed310c003b566fb364866f23e2d6a2561", "leaf_count": 20, "run_id": "seed103-13fab067e045", "timestamp_ns": 1790463014232732494}
