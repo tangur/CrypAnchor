@@ -1,0 +1,9 @@
+{
+  "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+  "logical_cpus": 1,
+  "ram_gb": 3.9,
+  "os": "Linux 6.18.44-fc-v42 x86_64",
+  "python": "CPython 3.12.3",
+  "timer": "time.perf_counter_ns",
+  "reps": 30
+}
