@@ -11,9 +11,7 @@ whoever stores the logs.
 
 This repository accompanies the paper *Verifiable Accountability for
 Autonomous AI Agents via Cryptographic Decision Anchoring* (Frontiers,
-revised version). The first commit contains the original prototype used in
-the initial submission; later commits contain the revised implementation and
-all experiments.
+revised version).
 
 ## What is guaranteed, and what is not
 
@@ -67,14 +65,18 @@ policy; the logging layer treats the policy as a black box.
 ## Reproducing the paper's experiments
 
 ```bash
-python scripts/attacks.py                 # Table 3: 14 attacks x 1,000 trials (~1 min)
-python scripts/benchmark.py               # Table 4 and Figure 3 (30 repetitions; 30-60 min)
-python scripts/make_runs.py --n 8         # runs to anchor on testnet4 (Table 5)
+python scripts/attacks.py                 # Table 2: 14 attacks x 1,000 trials (~1 min)
+python scripts/benchmark.py               # Table 3 and Figure 3 (30 repetitions; 30-60 min)
+python scripts/make_runs.py --n 8         # runs to anchor on testnet4 (Table 4)
 python scripts/onchain_stats.py watch <TXID> --run runs/run_00   # right after each broadcast
 python scripts/onchain_stats.py summary
 ```
 
-Results are written to `results/`, including `hardware.json`.
+Results are written to `results/`, including `hardware.json`. The committed
+benchmark numbers were produced on a 1-vCPU cloud VM; re-running the benchmark
+overwrites them with results from your machine. The transaction ids of the
+eight testnet4 anchors are in `results/onchain_anchors.csv`, and the matching
+logs and run roots in `runs/`.
 
 ### Anchoring with Electrum (testnet4)
 

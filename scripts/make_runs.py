@@ -1,4 +1,4 @@
-"""Create N independent runs to anchor on Bitcoin testnet (paper, Table 5).
+"""Create N independent runs to anchor on Bitcoin testnet (paper, Table 4).
 
 Each runs/run_XX/ gets logs.jsonl, anchors.jsonl, anchor_receipt.json and
 electrum.txt (paste into Electrum > Pay to many).

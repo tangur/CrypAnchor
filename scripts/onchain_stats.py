@@ -1,4 +1,4 @@
-"""Measure on-chain overhead of anchoring transactions (paper, Table 5).
+"""Measure on-chain overhead of anchoring transactions (paper, Table 4).
 
   watch TXID [--run DIR]   start right after broadcasting; polls until 6
                            confirmations and appends a row to

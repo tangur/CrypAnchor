@@ -1,4 +1,4 @@
-"""Adversarial evaluation (paper, Table 3).
+"""Adversarial evaluation (paper, Table 2).
 
 For every trial a fresh honest run is simulated (2 agents, 50 steps,
 commit_every=10 -> 100 records, 5 epochs). An attack is applied and the

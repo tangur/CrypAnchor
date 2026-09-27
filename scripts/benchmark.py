@@ -1,4 +1,4 @@
-"""Timing benchmark (paper, Table 4 and Figure 3).
+"""Timing benchmark (paper, Table 3 and Figure 3).
 
 Grid: agents x steps x commit_every. For each configuration one simulation is
 generated (not timed); then each operation is timed `--reps` times with
